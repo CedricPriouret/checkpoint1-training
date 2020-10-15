@@ -3,7 +3,13 @@
 */
 
 function isEven(num) {
-  // ton code ici
+
+  if(num % 2 == 0){
+    result = 'true';
+  } else {
+    result ='false';
+  }
+  return result;
 }
 
 

@@ -4,8 +4,10 @@
  et renvoie la somme de ces nombres
 */
 
-function sumNumbers(numArray) {
 
+function sumNumbers(numArray) {
+ const myNewArray = numArray.reduce((acc, currentValue) => acc + currentValue);
+ return myNewArray;
 }
 
 
