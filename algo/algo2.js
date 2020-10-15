@@ -5,9 +5,9 @@
 function isEven(num) {
 
   if(num % 2 == 0){
-    result = 'true';
+    result = true;
   } else {
-    result ='false';
+    result = false;
   }
   return result;
 }
